@@ -1,7 +1,7 @@
 import java.util.List;
 
 public class GameLogic implements PlayableLogic {
-    final private int BoardSize = 8;
+    final private int BOARDSIZE = 8;
     private Player player1, player2;
     private Disc[][] gameBoard = new Disc[8][8];
     private boolean isFirstPturn = true;
@@ -31,7 +31,7 @@ public class GameLogic implements PlayableLogic {
 
     @Override
     public int getBoardSize() {
-        return BoardSize;
+        return BOARDSIZE;
     }
 
     @Override

@@ -8,10 +8,12 @@ public class Position {
     }
 
     public int row() {
+
         return this.row;
     }
 
     public int col() {
+
         return this.col;
     }
 }
